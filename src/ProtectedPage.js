@@ -29,10 +29,10 @@ function ProtectedPage(props) {
     return (
         <Layout {...props}>
             <Switch>
-                <Route path="/suppliers" component={SuppliersPage} />
                 <Route exact path="/" component={DashboardPage} />
                 <Route path="/suppliers/create" component={SupplierCreatePage} />
                 <Route path="/suppliers/:supplierId" component={SupplierEditPage} />
+                <Route path="/suppliers" exact component={SuppliersPage} />
                 <Route path="/categories/create" component={CategoryCreatePage} />
                 <Route path="/categories/:categoryId" component={CategoryEditPage} />
                 <Route path="/categories" component={CategoriesPage} />
