@@ -6,14 +6,18 @@ import DashboardPage from './dashboard/DashboardPage';
 import SuppliersPage from './supplier/SuppliersPage';
 import SupplierCreatePage from './supplier/SupplierCreatePage';
 import SupplierEditPage from './supplier/SupplierEditPage';
+
 import CategoriesPage from './category/CategoriesPage';
 import CategoryCreatePage from './category/CategoryCreatePage';
 import CategoryEditPage from './category/CategoryEditPage';
+
 import ProductsPage from './product/ProductsPage';
 import ProductCreatePage from './product/ProductCreatePage';
 import ProductEditPage from './product/ProductEditPage';
+
 import PurchasesPage from './purchase/PurchasesPage';
 import PurchaseCreatePage from './purchase/PurchaseCreatePage';
+
 import SalesPage from './sale/SalesPage';
 import SaleCreatePage from './sale/SaleCreatePage';
 
